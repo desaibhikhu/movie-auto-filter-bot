@@ -63,7 +63,7 @@ TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫ
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', false))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortyfi.link')
 SHORTLINK_API = environ.get('SHORTLINK_API', '318cf2049f8a66e5de9b050bd5424b394eddac9e')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
